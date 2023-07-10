@@ -1,9 +1,10 @@
-import 'package:delivery_mvp/app.dart';
-import 'package:delivery_mvp/utils/app_router.dart';
 import 'package:flutter/cupertino.dart';
 
+import 'app.dart';
+import 'utils/app_router.dart';
+
 void main() {
-  final appRouter = AppRouter();
+  final AppRouter appRouter = AppRouter();
 
   runApp(
     App(

@@ -1,5 +1,6 @@
-import 'package:delivery_mvp/utils/app_router.dart';
 import 'package:flutter/material.dart';
+
+import 'utils/app_router.dart';
 
 class App extends StatelessWidget {
   final AppRouter appRouter;

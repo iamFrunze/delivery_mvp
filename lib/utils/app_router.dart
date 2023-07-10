@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:delivery_mvp/utils/app_router.gr.dart';
+import 'app_router.gr.dart';
 
 @AutoRouterConfig()
 class AppRouter extends $AppRouter {
@@ -7,11 +7,11 @@ class AppRouter extends $AppRouter {
   List<AutoRoute> get routes => [
         AutoRoute(
           page: HomeRoute.page,
-          path: '/',
+          path: '/home',
         ),
         AutoRoute(
           page: SplashRoute.page,
-          path: '/splash',
+          path: '/',
         ),
       ];
 }
