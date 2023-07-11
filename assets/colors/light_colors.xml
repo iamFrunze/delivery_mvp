@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_name_znamensk">#FF5D4037</color>
+
+    <color name="app_name_delivery">#FF8D6E63</color>
+
+    <color name="primary">#5D4037</color>
+    <color name="onPrimary">#FEFEFE</color>
+
+    <color name="disabled">#CACACA</color>
+
+    <color name="heading">#3C3C3C</color>
+    <color name="text">#555555</color>
+
+</resources>
+
+
