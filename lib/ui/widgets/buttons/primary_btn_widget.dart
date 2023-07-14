@@ -29,6 +29,11 @@ class PrimaryBtnWidget extends StatelessWidget {
           AppDimensions.buttonWidth,
           AppDimensions.buttonSmallHeight,
         );
+      case SizeButton.infinity:
+        return const Size(
+          double.infinity,
+          AppDimensions.buttonNormalHeight,
+        );
     }
   }
 

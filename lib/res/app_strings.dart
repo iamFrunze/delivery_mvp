@@ -5,7 +5,15 @@ class AppStrings {
   static const String splashSubtitle = 'Заказывать стало проще!';
   static const String skip = 'Пропустить';
   static const String next = 'Дальше';
-  static const String enter = 'Войти';
+  static const String enter = 'Войти/Зарегистрироваться';
+  static const String registration = 'Зарегистрироваться';
+  static const String haveAccount = 'Уже есть аккаунт?';
+  static const String logIn = 'Войти';
+
+  static const String name = 'Имя';
+  static const String nameHint = 'Введите Ваше имя';
+  static const String numberPhone = 'Номер телефона';
+  static const String numberPhoneHint = 'Введите Ваш номер телефона';
 
   static const String firstOnboardingTitle = 'Choose and customize your Drinks';
   static const String firstOnboardingSubtitle =
